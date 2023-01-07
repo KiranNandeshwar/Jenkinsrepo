@@ -14,9 +14,9 @@ pipeline {
             }
         }
         
-        stage('Goan') {
+        stage('Gone') {
             steps {
-                echo 'Goan...'
+                echo 'Gone...'
             }
         }
     }
