@@ -1,7 +1,8 @@
 pipeline {
     agent any
-
-    stage('Biuld') {
+	stages {
+	
+	stage('Biuld') {
             steps {
                 echo 'building...'
             }
@@ -19,3 +20,4 @@ pipeline {
             }
         }
     }
+}
