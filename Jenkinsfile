@@ -2,21 +2,21 @@ pipeline {
     agent any
 	stages {
 	
-	stage('Biuld') {
+	stage('AWS') {
             steps {
-                echo 'building...'
+                echo 'AWS...'
             }
         }
         
-        stage('Test') {
+        stage('Azure') {
             steps {
-                echo 'testing...'
+                echo 'Azure...'
             }
         }
         
-        stage('Deploy') {
+        stage('GCP') {
             steps {
-                echo 'deploying...'
+                echo 'GCP...'
             }
         }
     }
